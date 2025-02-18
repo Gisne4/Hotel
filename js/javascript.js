@@ -113,3 +113,19 @@ $("#fa-angle-left").on("click", function () {
     $(con_5IMGS).hide();
   }
 });
+$(".dining_visual img ").mouseenter(function () {
+  $(".dining_visual img").css({
+    transform: "scale(1.1, 1.1)",
+    "border-radius": "0px",
+    transition: "1s",
+    opacity: "0.9",
+  });
+});
+$(".dining_visual img").mouseleave(function () {
+  $(".dining_visual img").css({
+    transform: "scale(1,1)",
+    "border-radius": "0px 30px ",
+    transition: "1s",
+    opacity: "1",
+  });
+});
