@@ -1,0 +1,27 @@
+<header>
+  <div class="logo">
+    <a href="../index.html">
+      <img src="/big/big-logo.svg" alt="FLEX HOTEL 로고" />
+      <p>FLEX <span>HOTEL</span></p>
+    </a>
+  </div>
+  <!-- 각 메뉴마다 html 파일&폴더 바꿔주세요. -->
+  <ul class="nav-links" id="nav-links">
+    <li><a href="../reservation.html">예약</a></li>
+    <li><a href="#">객실</a></li>
+    <li><a href="../dining.html">다이닝</a></li>
+    <li><a href="../offer/offer.html">프로모션</a></li>
+    <li><a href="../brand.html">브랜드</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger">
+    <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+  </button>
+</header>
+<script src="/js/jquery-3.7.1.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $("#hamburger").click(function () {
+      $(".nav-links").slideToggle("slow");
+    });
+  });
+</script>
