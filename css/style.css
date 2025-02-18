@@ -324,6 +324,49 @@ button {
   background-color: #efe9e3;
   color: #5a4848;
 }
+.details {
+  width: 80%;
+  margin: 10%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.details h1 {
+  margin-right: 18vw;
+  margin-bottom: 5vh;
+}
+.details div {
+  display: flex;
+  gap: 5vw;
+}
+.details ul {
+  width: calc(100% / 2 - 2.1vw);
+  list-style: circle;
+}
+.details .ipsumLeft {
+  width: 30vw;
+  margin-top: 10vh;
+}
+.introDuction {
+  display: flex;
+  width: 80%;
+  margin-inline: 10%;
+}
+.introDuction .ipsumRight {
+  margin-right: 5vw;
+  display: block;
+  width: 500px;
+}
+.introDuction h1 {
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+.introDuction ul {
+  list-style: circle;
+}
+.introDuction li {
+  margin-bottom: 3vh;
+}
 @media (max-width: 1080px) and (min-width: 760px) {
   .scroll_1 {
     display: grid;
