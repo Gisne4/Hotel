@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*container03*/
+
+.container03 {
+  width: 1200px;
+}
+
+.container03 .con01 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  position: relative;
+}
+
+.con01 p {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.con01 .bri {
+  background-image: url(../img/index2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 330px;
+}
+.con01 .rei {
+  background-image: url(../img/index3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 330px;
+}
+
+.con01 .ski {
+  background-image: url(../img/index4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 330px;
+}
