@@ -113,6 +113,55 @@ $("#fa-angle-left").on("click", function () {
     $(con_5IMGS).hide();
   }
 });
+
+//버튼 이팩트
+
+var btn = "";
+
+$(".dining_con1 .con1Li1").mouseenter(function () {
+  $(".con1Li1 .btnslider").css({
+    transform: "translate(835px, -90px)",
+    transition: "3s",
+  });
+  $(".dining_con1 h6").css({
+    transform: "translate(0px, -40px)",
+    transition: "3s",
+  });
+});
+$(".dining_con1 .con1Li1").mouseleave(function () {
+  $(".con1Li1 .btnslider").css({
+    transform: "translate(-835px, 90px)",
+  });
+  $(".dining_con1 h6").css({
+    transform: "translate(0px, 20px)",
+  });
+});
+$(".dining_con1 .con1btn2").mouseenter(function () {
+  $(".dining_con1 .con1btn2").css({
+    "background-color": "black",
+    color: "white",
+    border: "#5a4848 1px solid",
+  });
+});
+$(".dining_con1 .con1btn2").mouseleave(function () {
+  $(".dining_con1 .con1btn2").css({
+    "background-color": "white",
+    color: "black",
+  });
+});
+$(".dining_con1 .con1btn3").mouseenter(function () {
+  $(".dining_con1 .con1btn3").css({
+    "background-color": "black",
+    color: "white",
+    border: "#5a4848 1px solid",
+  });
+});
+$(".dining_con1 .con1btn3").mouseleave(function () {
+  $(".dining_con1 .con1btn3").css({
+    "background-color": "white",
+    color: "black",
+  });
+});
 $(".dining_visual img ").mouseenter(function () {
   $(".dining_visual img").css({
     transform: "scale(1.1, 1.1)",

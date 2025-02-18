@@ -87,11 +87,32 @@ button {
   margin-inline: 10%;
   margin-block: 40px;
 }
-
+.dining_con1 li {
+  position: relative;
+  overflow: hidden;
+}
+.dining_con1 .con1btn1 {
+}
+.dining_con1 .btnslider {
+  position: absolute;
+  left: -835px;
+  top: 20px;
+  /* transform: translate(673px, -60px);
+  transition: 3s; */
+}
+.dining_con1 h6 {
+  position: absolute;
+  z-index: 60;
+  top: 52px;
+  left: 10px;
+  font-size: 26px;
+  color: #efe9e3;
+}
 .dining_con1 button {
   padding-inline: 50px;
   padding-block: 20px;
-  border: none;
+  background: white;
+  border: #5a4848 1px solid;
 }
 .dining_visual .con5_2,
 .dining_visual .con5_3,
