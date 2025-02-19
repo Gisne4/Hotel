@@ -304,30 +304,30 @@ button {
   width: 400px;
   height: 300px;
 }
-.con5 {
+.krcon5 {
   position: relative;
   display: flex;
   margin-block: 20px;
   justify-content: space-between;
 }
-.con5 h2 {
+.krcon5 h2 {
   font-size: 16px;
   font-weight: 500;
 }
-.con5 .container_5_Left {
+.krcon5 .container_5_Left {
   width: 20vw;
 }
-.con5 .container_5_Right {
+.krcon5 .container_5_Right {
   width: 600px;
   height: 600px;
 }
-.con5 .container_5_Right img {
+.krcon5 .container_5_Right img {
   position: absolute;
   right: 0%;
   display: none;
   width: 550px;
 }
-.con5 .container_5_Right .con5_1 {
+.krcon5 .container_5_Right .con5_1 {
   display: block;
 }
 .container_5_Left div {
@@ -391,22 +391,22 @@ button {
   .scroll_1 {
     display: grid;
   }
-  .con5 {
+  .krcon5 {
     display: grid;
     justify-content: center;
   }
-  .con5 .container_5_Left {
+  .krcon5 .container_5_Left {
     text-align: center;
     width: 100%;
   }
-  .con5 .container_5_Right {
+  .krcon5 .container_5_Right {
     width: 100%;
   }
-  .con5 .container_5_Right img {
+  .krcon5 .container_5_Right img {
     right: 0px;
     width: 100%;
   }
-  .con5 .container_5_Left div {
+  .krcon5 .container_5_Left div {
     top: 50%;
     right: 20%;
     transform: translate(50%, 50%);
@@ -443,24 +443,24 @@ button {
   .scroll_1 {
     display: grid;
   }
-  .con5 {
+  .krcon5 {
     display: grid;
     justify-content: center;
   }
-  .con5 .container_5_Left div {
+  .krcon5 .container_5_Left div {
     top: 45%;
     right: 20%;
     transform: translate(40%, -80%);
     transition: 1s;
   }
-  .con5 .container_5_Left {
+  .krcon5 .container_5_Left {
     width: 100%;
     text-align: center;
   }
-  .con5 .container_5_Right {
+  .krcon5 .container_5_Right {
     width: 100%;
   }
-  .con5 .container_5_Right img {
+  .krcon5 .container_5_Right img {
     right: 0px;
     width: 100%;
   }
