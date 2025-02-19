@@ -387,7 +387,7 @@ button {
 .introDuction li {
   margin-bottom: 3vh;
 }
-@media (max-width: 1080px) and (min-width: 760px) {
+@media (max-width: 1220px) and (min-width: 600px) {
   .scroll_1 {
     display: grid;
   }
@@ -439,7 +439,7 @@ button {
     width: 100%;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   .scroll_1 {
     display: grid;
   }
