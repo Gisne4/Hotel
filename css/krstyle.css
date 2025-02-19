@@ -41,7 +41,7 @@ button {
   font-weight: 500;
 }
 
-.con1 {
+.krcon1 {
   text-align: center;
   width: 100%;
 }
@@ -282,11 +282,11 @@ button {
 .brand_con3 i {
   margin-block: 10px;
 }
-.con1 h1 {
+.krcon1 h1 {
   font-size: 20px;
   margin-inline: 10%;
 }
-.con1 h2 {
+.krcon1 h2 {
   font-size: 13px;
   margin-block: 20px;
   width: 80%;
@@ -300,7 +300,7 @@ button {
   overflow: hidden;
   justify-content: space-around;
 }
-.con1 img {
+.krcon1 img {
   width: 400px;
   height: 300px;
 }

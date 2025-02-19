@@ -1,33 +1,33 @@
 $(function () {
-  $(".con1_1").mouseover(function () {
-    $(".con1_1").css({
+  $(".krcon1_1").mouseover(function () {
+    $(".krcon1_1").css({
       transform: "scale(1.15, 1.15)",
       transition: "0.7s",
       opacity: "0.8",
     });
   });
-  $(".con1_1").mouseleave(function () {
-    $(".con1_1").css({ transform: "scale(1, 1)", opacity: "1" });
+  $(".krcon1_1").mouseleave(function () {
+    $(".krkrcon1_1").css({ transform: "scale(1, 1)", opacity: "1" });
   });
-  $(".con1_2").mouseover(function () {
-    $(".con1_2").css({
+  $(".krcon1_2").mouseover(function () {
+    $(".krcon1_2").css({
       transform: "scale(1.15, 1.15)",
       transition: "0.7s",
       opacity: "0.8",
     });
   });
-  $(".con1_2").mouseleave(function () {
-    $(".con1_2").css({ transform: "scale(1, 1)", opacity: "1" });
+  $(".krcon1_2").mouseleave(function () {
+    $(".krcon1_2").css({ transform: "scale(1, 1)", opacity: "1" });
   });
-  $(".con1_3").mouseover(function () {
-    $(".con1_3").css({
+  $(".krcon1_3").mouseover(function () {
+    $(".krcon1_3").css({
       transform: "scale(1.15, 1.15)",
       transition: "0.7s",
       opacity: "0.8",
     });
   });
-  $(".con1_3").mouseleave(function () {
-    $(".con1_3").css({ transform: "scale(1, 1)", opacity: "1" });
+  $(".krcon1_3").mouseleave(function () {
+    $(".krcon1_3").css({ transform: "scale(1, 1)", opacity: "1" });
   });
 
   //몇번째인지셀려고 만든 수
@@ -117,48 +117,15 @@ $(function () {
 
   //버튼 이팩트
 
-  var btn = "";
-
-  $(".dining_con1 .con1Li1").mouseenter(function () {
-    $(".con1Li1 .btnslider").css({
-      transform: "translate(835px, -90px)",
-      transition: "3s",
-    });
-    $(".dining_con1 h6").css({
-      transform: "translate(0px, -40px)",
-      transition: "3s",
-    });
-  });
-  $(".dining_con1 .con1Li1").mouseleave(function () {
-    $(".con1Li1 .btnslider").css({
-      transform: "translate(-835px, 90px)",
-    });
-    $(".dining_con1 h6").css({
-      transform: "translate(0px, 20px)",
-    });
-  });
-  $(".dining_con1 .con1btn2").mouseenter(function () {
-    $(".dining_con1 .con1btn2").css({
+  $(".dining_con1 ul li button").mouseenter(function () {
+    $(this).css({
       "background-color": "black",
       color: "white",
       border: "#5a4848 1px solid",
     });
   });
-  $(".dining_con1 .con1btn2").mouseleave(function () {
-    $(".dining_con1 .con1btn2").css({
-      "background-color": "white",
-      color: "black",
-    });
-  });
-  $(".dining_con1 .con1btn3").mouseenter(function () {
-    $(".dining_con1 .con1btn3").css({
-      "background-color": "black",
-      color: "white",
-      border: "#5a4848 1px solid",
-    });
-  });
-  $(".dining_con1 .con1btn3").mouseleave(function () {
-    $(".dining_con1 .con1btn3").css({
+  $(".dining_con1 ul li button").mouseleave(function () {
+    $(this).css({
       "background-color": "white",
       color: "black",
     });
