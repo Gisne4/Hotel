@@ -1,8 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
+
 body {
   font-family: "Song Myung", serif;
 }
@@ -11,7 +11,7 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
   background-color: #222;
   padding: 15px 20px;
   position: fixed;
@@ -34,20 +34,29 @@ header p {
   display: flex;
   align-items: end;
 }
-.nav-menu ul {
+.nav-menu,
+.nav-menu1 {
+  position: absolute;
+  right: 100px;
+}
+.nav-menu ul,
+.nav-menu1 ul {
   display: flex;
   list-style: none;
 }
-.nav-menu ul li {
+.nav-menu ul li,
+.nav-menu1 ul li {
   margin: 0 15px;
 }
 
-.nav-menu ul li a {
+.nav-menu ul li a,
+.nav-menu1 ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
 }
-.nav-menu ul li a:hover {
+.nav-menu ul li a:hover,
+.nav-menu1 ul li a:hover {
   text-decoration: underline;
 }
 .menu-btn {
@@ -79,7 +88,12 @@ header p {
   .nav-menu ul li {
     margin: 10px 0;
   }
+  .nav-menu1 {
+    display: none;
+  }
   .menu-btn {
+    position: absolute;
+    right: 100px;
     display: block;
   }
 }

@@ -16,11 +16,15 @@ button {
 }
 .visual {
   width: 100%;
+
+  overflow-x: hidden;
+  justify-items: center;
   position: relative;
 }
-.visual img {
-  width: 100%;
-  box-shadow: 0px 3px 12px;
+.visual .videoContainer {
+  height: 100vh;
+
+  display: block;
 }
 .visual P {
   position: absolute;
@@ -366,6 +370,7 @@ button {
   display: flex;
   width: 80%;
   margin-inline: 10%;
+  margin-bottom: 5%;
 }
 .introDuction .ipsumRight {
   margin-right: 5vw;
@@ -433,6 +438,10 @@ button {
   .brand_con3 img {
     width: 100%;
   }
+  .introDuction {
+    display: grid;
+    justify-items: center;
+  }
 }
 @media (max-width: 600px) {
   .scroll_1 {
@@ -484,5 +493,19 @@ button {
 
   .brand_con3 img {
     width: 100%;
+  }
+
+  .introDuction {
+    display: grid;
+    justify-items: center;
+  }
+  .introDuction img {
+    display: block;
+
+    width: 100%;
+  }
+  .introDuction_detail h1 {
+    position: absolute;
+    top: 10px;
   }
 }
