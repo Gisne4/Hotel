@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*모바일 버전*/
+
+@media (max-width: 600px) {
+}
+/*header*/
+
+/*태블릿*/
+@media (min-width: 600px) and (max-width: 1220px) {
+}
+body {
+}
+
+/* pc 버전 */
+
+@media (min-width: 1220px) {
+  body {
+    font-family: "Song Myung", serif;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*header pc 버전*/
+
+  header {
+    padding: 0.5rem 0rem 1rem 0.5rem;
+    box-sizing: border-box;
+  }
+  li {
+    list-style: none;
+  }
+
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  header .hh00 {
+    position: absolute;
+    top: 74px;
+    left: 0px;
+    background-color: #efe9e367;
+    width: 100%;
+  }
+  header .hh01 {
+    display: flex;
+    gap: 14.5rem;
+  }
+  header .hh01 a {
+    font-size: 0.8rem;
+  }
+  .hh01 .hh {
+    margin-left: 1rem;
+  }
+
+  header .hh02 {
+    display: flex;
+    gap: 2rem;
+  }
+
+  header li {
+    padding: 0.8rem;
+  }
+  .hh02 .ha01 {
+    background-color: white;
+    padding: 1rem 7.4rem;
+  }
+  .hh02 .ha02 {
+    background-color: white;
+    padding: 1rem 8rem;
+    margin-left: 0.8rem;
+  }
+  .hh02 .ha02 a {
+    font-size: 2rem;
+  }
+  .hh02 .ha03 {
+    background-color: white;
+    padding: 1rem 4.5rem;
+  }
+  .hh02 .ha04 {
+    background-color: white;
+    padding: 1rem 3rem;
+    margin-left: 6rem;
+  }
+
+  /*visual pc 버전*/
+
+  .visual {
+    width: 100%;
+    background-image: url(../img/reservation1.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+  }
+
+  /*jucontainer pc 버전*/
+
+  .jucontainer {
+    width: 80%;
+    margin-inline: 10%;
+    background-color: #efe9e3;
+  }
+
+  .jucontainer .jucon01 {
+    width: 550px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 3rem;
+  }
+
+  .jucontainer .jucon01 h4 {
+    margin: 30px;
+    font-size: 1.2rem;
+    color: #393737;
+  }
+  .jucontainer .jucon02 {
+    width: 1050px;
+    margin: 0px auto;
+  }
+  .jucontainer .jucon02 img {
+    width: 300px;
+    height: 250px;
+    padding: 1.4rem;
+  }
+
+  .jucontainer .jucon02 h2 {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .jucontainer .jucon02 .jucon02a {
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .jucontainer .jucon02 .jucon02a h3 {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  .jucontainer .jucon02 .jucon02a p {
+    font-size: 1.1rem;
+  }
+  .jucontainer .jucon02 .jucon02b {
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .jucontainer .jucon02 .jucon02b h3 {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  .jucontainer .jucon02 .jucon02b p {
+    font-size: 1.1rem;
+  }
+  .jucon02 .juconimg {
+    text-align: center;
+  }
+}

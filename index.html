@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexhotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/justyle1.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+<body>
+    <div class="visual">
+        <h1>Experience the Difference</h1>
+    </div>
+
+
+
+    <div class="jucontainer03">
+        <h2>DINING</h2>
+        <ul class="jucon01">
+          <li class="dimg01">
+            <img src="img/index2.png" alt="" />
+            <p>Brunch cafe</p>
+          </li>
+          <li class="dimg02">
+            <img src="img/index3.png" alt="" />
+            <p>Restaurant</p>
+          </li>
+          <li class="dimg03"><img src="img/index4.png" alt="" />
+            <p>Sky Lounge</p></li>
+        </ul>
+     </div>
+
+<script >
+
+
+      $(".dimg01").on("mouseenter", function () {
+        $(".dimg01").css({ transform: "scale(1.1)" });
+      });
+      $(".dimg01").on("mouseleave", function () {
+        $(".dimg01").css({ transform: "scale(1)" });
+      });
+
+      $(".dimg02").on("mouseenter", function () {
+        $(".dimg02").css({ transform: "scale(1.1)" });
+      });
+      $(".dimg02").on("mouseleave", function () {
+        $(".dimg02").css({ transform: "scale(1)" });
+      });
+      $(".dimg03").on("mouseenter", function () {
+        $(".dimg03").css({ transform: "scale(1.1)" });
+      });
+      $(".dimg03").on("mouseleave", function () {
+        $(".dimg03").css({ transform: "scale(1)" });
+      });
+
+      $(".dimg01").on("mouseenter", function () {
+        $(".dimg01 p").css({ display: "block" });
+      });
+      $(".dimg01").on("mouseleave", function () {
+        $(".dimg01 p").css({ display: "none" });
+      });
+      $(".dimg02").on("mouseenter", function () {
+        $(".dimg02 p").css({ display: "block" });
+      });
+      $(".dimg02").on("mouseleave", function () {
+        $(".dimg02 p").css({ display: "none" });
+      });
+      $(".dimg03").on("mouseenter", function () {
+        $(".dimg03 p").css({ display: "block" });
+      });
+      $(".dimg03").on("mouseleave", function () {
+        $(".dimg03 p").css({ display: "none" });
+      });
+    </script>
+   
+</body>
+</html>

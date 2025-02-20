@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/*모바일 버전*/
+
+@media (max-width: 600px) {
+  body {
+    font-family: "Song Myung", serif;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*visual 모바일 버전*/
+
+  .visual {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/index1.jpg);
+    height: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+  }
+  .visual h1 {
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+  }
+  /*container 모바일 버전*/
+
+  .jucontainet03 {
+    width: 100%;
+    margin: 0px auto;
+  }
+  li {
+    list-style: none;
+  }
+  .jucontainer03 .jucon01 img {
+    width: 100%;
+
+    height: 100vw;
+  }
+  .jucontainer03 .jucon01 li {
+    margin: 2rem 0rem;
+  }
+
+  .jucontainer03 h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem 3rem 5rem;
+  }
+  .jucontainer03 .jucon01 {
+    object-fit: cover;
+    justify-content: center;
+    position: relative;
+  }
+
+  .jucon01 p {
+    position: absolute;
+    left: 2.2rem;
+    bottom: 2rem;
+    font-size: 1.8rem;
+    color: white;
+    display: none;
+  }
+}
+
+/*태블릿*/
+
+@media (min-width: 600px) and (max-width: 1220px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    font-family: "Song Myung", serif;
+  }
+
+  /*visual 태블릿*/
+
+  .visual {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/index1.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+  }
+  .visual h1 {
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+  }
+  /*container 태블릿*/
+
+  .jucontainet03 {
+    width: 100%;
+    margin: 0px auto;
+  }
+  li {
+    list-style: none;
+  }
+
+  .jucontainer03 .jucon01 img {
+    width: 90%;
+    /* height: 300px;*/
+  }
+  .jucontainer03 h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem 3rem 5rem;
+  }
+  .jucontainer03 .jucon01 {
+    display: flex;
+    gap: 2rem;
+    object-fit: cover;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1.7rem;
+  }
+
+  .jucon01 p {
+    position: absolute;
+    left: 2.2rem;
+    bottom: 2rem;
+    font-size: 1rem;
+    color: white;
+    display: none;
+  }
+}
+
+/* pc 버전 */
+
+@media (min-width: 1220px) {
+  body {
+    font-family: "Song Myung", serif;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*visual pc버전*/
+
+  .visual {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/index1.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+  }
+  .visual h1 {
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+  }
+
+  /*container pc버전*/
+
+  .jucontainet03 {
+    width: 1200px;
+    margin: 0px auto;
+  }
+  li {
+    list-style: none;
+  }
+  .jucontainer03 .jucon01 img {
+    width: 350px;
+    height: 300px;
+  }
+  .jucontainer03 h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem 3rem 5rem;
+  }
+  .jucontainer03 .jucon01 {
+    display: flex;
+    gap: 2rem;
+    object-fit: cover;
+    justify-content: center;
+    position: relative;
+  }
+
+  .jucon01 p {
+    position: absolute;
+    left: 2.2rem;
+    bottom: 2rem;
+    font-size: 1.8rem;
+    color: white;
+    display: none;
+  }
+}
