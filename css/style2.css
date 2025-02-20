@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+/*모바일 버전*/
+
+@media (max-width: 600px) {}
+  /*header*/
+
+
+
+/*태블릿*/
+@media (min-width: 600px) and (max-width: 1220px) {
+  body {
+  }
+
+
+
+
+/* pc 버전 */
+
+@media (max-width: 1220px) {
+  body {
+    font-family: "Song Myung", serif;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*header pc 버전*/
+
+  header {
+    width: 1200px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(228, 215, 215, 0.541);
+    padding: 0.5rem 0rem 1rem 0.5rem;
+    box-sizing: border-box;
+  }
+  li {
+    list-style: none;
+  }
+
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  header .hh01 {
+    display: flex;
+    gap: 14.5rem;
+  }
+  header .hh01 a {
+    font-size: 0.8rem;
+  }
+  .hh01 .hh {
+    margin-left: 1rem;
+  }
+
+  header .hh02 {
+    display: flex;
+    gap: 2rem;
+  }
+
+  header li {
+    padding: 0.8rem;
+  }
+  .hh02 .ha01 {
+    background-color: white;
+    padding: 1rem 7.4rem;
+  }
+  .hh02 .ha02 {
+    background-color: white;
+    padding: 1rem 8rem;
+    margin-left: 0.8rem;
+  }
+  .hh02 .ha02 a {
+    font-size: 2rem;
+  }
+  .hh02 .ha03 {
+    background-color: white;
+    padding: 1rem 4.5rem;
+  }
+  .hh02 .ha04 {
+    background-color: white;
+    padding: 1rem 3rem;
+    margin-left: 6rem;
+  }
+
+  /*visual pc 버전*/
+
+  .visual {
+    width: 1200px;
+    background-image: url(../img/reservation1.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+  }
+
+  /*container pc 버전*/
+
+  .container {
+    width: 1200px;
+    background-color: #efe9e3;
+  }
+
+  .container .con01 {
+    width: 550px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 3rem;
+  }
+
+  .container .con01 h4 {
+    margin: 30px;
+    font-size: 1.2rem;
+    color: #393737;
+  }
+}
